@@ -1,0 +1,36 @@
+{
+  "name": "ionic-modular-seed",
+  "version": "1.0.0",
+  "description": "Ionic modular seed",
+  "authors": [
+    "Manu de Frutos Vila <manuel.defrutosvila@sopra.com>",
+    "Sergi Collado <sergio.collado@sopra.com>"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-clean-css": "^3.3.1",
+    "gulp-rename": "^1.2.2"
+  },
+  "devDependencies": {
+    "bower": "^1.6.5",
+    "gulp-util": "^3.0.7",
+    "shelljs": "^0.5.3"    
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard",
+    "ionic-plugin-deploy"
+  ],
+  "cordovaPlatforms": [
+    "ios",
+    "android"
+  ],
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
